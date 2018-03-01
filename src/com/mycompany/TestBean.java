@@ -15,6 +15,10 @@ public class TestBean {
 //		Calendar c1= new GregorianCalendar();
 		Calendar c1 = ac.getBean("c1",Calendar.class);
 		System.out.println(c1);
+		
+		Calendar c2 = ac.getBean("c2",Calendar.class);
+		System.out.println(c2);
+
 	}
 
 }
